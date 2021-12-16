@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="kr">
+<html lang="ko">
   <head>
     <link
       rel="shortcut icon"
@@ -10,13 +10,13 @@
     <meta name="description" content="This is my website" />
   </head>
   <body>
-    <audio
-      controls
-      autoplay
-      src="https://interactive-examples.mdn.mozilla.net/media/cc0-audio/t-rex-roar.mp3"
-    ></audio>
-    <dialog open>
-      <p>여러분 안녕하세요!</p>
-    </dialog>
+    <form>
+      <input type="file" accept=".png,.pdf" />
+      <input required placeholder="Name" type="text" />
+      <input required placeholder="Last Name" type="text" />
+      <input required placeholder="Username" minlength="10" type="text" />
+      <input required placeholder="Password" type="password" />
+      <input type="submit" value="Create Account" />
+    </form>
   </body>
 </html>
