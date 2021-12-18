@@ -7,31 +7,20 @@
     />
     <title>Home - My first website.</title>
     <style>
+      :root {
+        --main-color: #489ee0;
+        --default-border: 1px solid var(--main-color);
+      }
       body {
         margin: 50px;
         height: 1000vh;
       }
-      span {
-        background-color: yellowgreen;
-        padding: 5px;
-        border-radius: 10px;
+      p {
+        background-color: var(--main-color);
       }
-      /* input::placeholder {
-        color: yellowgreen;
-      } */
-      /* p::selection {
-        background-color: yellowgreen;
-        color: white;
-      } */
-      /* p::first-letter {
-        color: white;
-        font-size: 50px;
-        background-color: yellowgreen;
-      } */
-      p::first-line {
-        color: white;
-        font-size: 50px;
-        background-color: yellowgreen;
+      a {
+        color: var(--main-color);
+        border: var(--default-border);
       }
     </style>
     <meta charset="utf-8" />
@@ -42,7 +31,9 @@
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur libero
       sed ipsam mollitia labore aut deserunt earum accusantium expedita,
       voluptates aperiam tempore ullam deleniti, ducimus vel fugit consectetur
-      ratione quod.
     </p>
+    <div>
+      <a href="#">Website</a>
+    </div>
   </body>
 </html>
