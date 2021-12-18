@@ -4,23 +4,18 @@
     <title>title</title>
     <meta charset="utf-8" />
     <style>
-      a {
-        color: wheat;
-        background-color: tomato;
-        text-decoration: none;
-        padding: 3px 5px;
-        border-radius: 5px;
-        font-size: 55px;
-        transition: all 1s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+      img {
+        border: 10px solid black;
+        border-radius: 50%;
+        transition: transform 1s ease-in-out;
       }
-      a:hover {
-        border-radius: 20px;
-        color: tomato;
-        background-color: wheat;
+      img:hover {
+        transform: perspective(800px);
       }
     </style>
   </head>
   <body>
-    <a href="#">Go home</a>
+    <img src="img/logo.jpg" />
+    <span>fdsafsdfasdf</span>
   </body>
 </html>
