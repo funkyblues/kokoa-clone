@@ -11,32 +11,59 @@
         margin: 50px;
         height: 1000vh;
       }
-      span {
-        background-color: yellowgreen;
+      button {
         padding: 5px;
         border-radius: 10px;
       }
-      input {
-        border: 1px solid wheat;
+      /* button:active {
+        background-color: tomato;
+      } */
+      /*  마우스가 위로 지나갈 때 */
+      /* 설정을 바꾸면, 다시 재 설정 해주어야 함 */
+      /* button:hover {
+        background-color: tomato;
+        border-radius: 20px;
+      } */
+      /* input:focus {
+        background-color: tomato;
+      } */
+      /* a:visited {
+        color: tomato;
       }
-      input:required {
-        border-color: tomato;
+      a:hover {
+        color: teal;
       }
-      input[placeholder~="name"] {
-        background-color: thistle;
+      a:focus {
+        color: turquoise;
+      } */
+
+      form {
+        border: 1px solid salmon;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
       }
-      /* 특성 선택자 attribute selector css mdn */
+      /* form:focus-within {
+        border-color: seagreen;
+      } */
+      /* form이 hover가 되면 input이 배경색을 다음과 같이 갖게 된다~ */
+      /* form:hover focus {
+        background-color: sienna;
+      } */
+      /* form이 hover가 되면 input이 배경색을 다음과 같이 갖게 된다~ */
+      form:hover input:focus {
+        background-color: sienna;
+      }
     </style>
     <meta charset="utf-8" />
     <meta name="description" content="This is my website" />
   </head>
   <body>
-    <div>
-      <form>
-        <input type="text" placeholder="First name" />
-        <input type="text" placeholder="Last name" />
-        <input type="password" required placeholder="password" />
-      </form>
-    </div>
+    <!-- <a href="https://apple.com">Go to apple</a> -->
+    <form>
+      <input type="text" name="" id="" />
+      <input type="text" name="" id="" />
+      <input type="text" name="" id="" />
+    </form>
   </body>
 </html>
