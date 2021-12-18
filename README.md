@@ -1,3 +1,2 @@
 # kokoa-clone
-Kokoa Clone 2021 시작중....
-ㅎㅎ
+####클론 코딩 앞부분
